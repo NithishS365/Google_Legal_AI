@@ -769,32 +769,7 @@ One platform to search, reference, and validate legal documents relevant to your
 
       {/* Document  */}
 
-<section className="relative w-full">
-  {/* Background Image */}
-  <img
-    className="w-full h-[500px] object-cover"
-    src={img14}
-    alt="Document Analysis Background"
-  />
 
-  {/* Overlay */}
-  <div className="absolute inset-0 bg-black/50 flex flex-col items-center justify-center text-center px-4">
-    <h1 className="text-4xl md:text-5xl font-bold text-white mb-4 drop-shadow-lg">
-      ClauseWise
-
-    </h1>
-    <p className="text-lg md:text-xl font-semibold text-gray-200 max-w-2xl mb-6 drop-shadow-md">
-An IBM powered Document Analyser    </p>
-    <p className="text-lg md:text-xl  text-gray-200 max-w-2xl mb-6 drop-shadow-md">
-Upload your legal document (PDF) here to quickly generate a summary and interact with a smart assistant.  </p>
-    <button
-      className="px-8 py-3 bg-green-800 text-white rounded-full shadow-lg text-lg font-semibold hover:bg-green-700 transition"
-      onClick={() => navigate('/ibm')}
-    >
-      Analyse Document
-    </button>
-  </div>
-</section>
 
 
 <section className="flex flex-col md:flex-row bg-white h-[500px] px-10 items-center">
